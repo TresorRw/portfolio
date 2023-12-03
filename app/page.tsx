@@ -1,7 +1,11 @@
+import AboutSection from "./AboutPage";
+import HomeSection from "./HomePage";
+
 export default function Home() {
   return (
     <>
-      <h1>Test1</h1>
+      <HomeSection />
+      <AboutSection />
     </>
   )
 }
