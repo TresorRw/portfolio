@@ -16,22 +16,27 @@ import {
 export default function NavbarComponent() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["About", "Experience", "Work", "Contact"];
-
+  const menuItems = [
+    { href: "/#about", label: "About" },
+    { href: "/#experience", label: "Experience" },
+    { href: "/#projects", label: "Work" },
+    { href: "/#certificates", label: "Certificates" },
+    { href: "/#contact", label: "Contact" },
+  ]
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll isBlurred={false} className="shadow-lg">
       <NavbarContent>
         <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} className="sm:hidden" />
         <NavbarBrand>
-          <h3 className="font-bold text-inherit text-lg">C.A Tresor</h3>
+          <h3 is="a" className="font-bold text-inherit text-lg">C.A Tresor</h3>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {menuItems.map((menu, i) => (
           <NavbarItem key={i}>
-            <Link href="#" color="foreground">
-              {menu}
+            <Link href={menu.href} color="foreground">
+              {menu.label}
             </Link>
           </NavbarItem>
         ))}
@@ -45,13 +50,13 @@ export default function NavbarComponent() {
       </NavbarContent>
       <NavbarMenu>
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem onClick={()=> setIsMenuOpen(false)} key={`${item}-${index}`}>
             <Link
               className="w-full"
-              href="#"
+              href={item.href}
               size="lg"
             >
-              {item}
+              {item.label}
             </Link>
           </NavbarMenuItem>
         ))}
