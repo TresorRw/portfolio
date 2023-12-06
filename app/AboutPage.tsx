@@ -1,5 +1,4 @@
 import Container from "@/components/Container";
-// import { Chip } from "@nextui-org/react";
 import { Image } from "@nextui-org/react";
 
 export default function AboutSection() {

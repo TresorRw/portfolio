@@ -103,11 +103,11 @@ export default function WorkSection() {
             </div>
           </div>
         </div>
-        <h4 className="text-xl font-semibold text-center pb-10">Featured Projects</h4>
+        <h4 className="text-2xl font-semibold text-center pb-10">Featured Projects</h4>
         <div className="flex gap-4 flex-col flex-wrap md:flex-row">
           <Card className="w-full md:max-w-[380px] lg:1/4 bg-primary-100">
             <CardHeader>
-              <h3 className="text-center font-bold text-lg uppercase">Home Security System</h3>
+              <h3 className="text-center font-bold text-lg uppercase">Home Security System Narada</h3>
             </CardHeader>
             <CardBody>
               <ul className="list-inside list-disc">
@@ -125,54 +125,33 @@ export default function WorkSection() {
           </Card>
           <Card className="w-full md:max-w-[380px] lg:1/4 bg-primary-100">
             <CardHeader>
-              <h3 className="text-center font-bold text-lg uppercase">Home Security System</h3>
+              <h3 className="text-center font-bold text-lg uppercase">Maize Incubator</h3>
             </CardHeader>
             <CardBody>
               <ul className="list-inside list-disc">
-                <li >
-                  Designed and Implemented the API and management system for this project.
+                <li>
+                  Designed and Implemented the API for this project.
                 </li>
                 <li>
-                  Built API for sharing data between software and sensors on home devices.
+                  Designed and shipped the dashboard for better data visualization with use of charts.
                 </li>
                 <li>
-                  Designed, built and shipped management system for devices and their owners.
+                  Built API for sharing data between software and sensors mounted in the incubator.
                 </li>
               </ul>
             </CardBody>
           </Card>
           <Card className="w-full md:max-w-[380px] lg:1/4 bg-primary-100">
             <CardHeader>
-              <h3 className="text-center font-bold text-lg uppercase">Home Security System</h3>
+              <h3 className="text-center font-bold text-lg uppercase">Smart Parking System</h3>
             </CardHeader>
             <CardBody>
               <ul className="list-inside list-disc">
-                <li >
-                  Designed and Implemented the API and management system for this project.
+                <li>
+                  Designed and Implemented the API for this project.
                 </li>
                 <li>
-                  Built API for sharing data between software and sensors on home devices.
-                </li>
-                <li>
-                  Designed, built and shipped management system for devices and their owners.
-                </li>
-              </ul>
-            </CardBody>
-          </Card>
-          <Card className="w-full md:max-w-[380px] lg:1/4 bg-primary-100">
-            <CardHeader>
-              <h3 className="text-center font-bold text-lg uppercase">Home Security System</h3>
-            </CardHeader>
-            <CardBody>
-              <ul className="list-inside list-disc">
-                <li >
-                  Designed and Implemented the API and management system for this project.
-                </li>
-                <li>
-                  Built API for sharing data between software and sensors on home devices.
-                </li>
-                <li>
-                  Designed, built and shipped management system for devices and their owners.
+                  Web app for managing the parking slots, data visualizations and more.
                 </li>
               </ul>
             </CardBody>
