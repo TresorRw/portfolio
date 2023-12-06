@@ -6,8 +6,8 @@ export default function ExperienceSection() {
     <Container>
       <div id="experience" className=" md:px-28 md:py-20 lg:py-28 p-5">
         <h3 className="text-2xl mb-5 font-bold">Where I&apos;ve worked</h3>
-        <div className="flex flex-wrap gap-4 justify-between">
-          <Card shadow="md" className="bg-background w-full lg:w-5/12 hover:scale-105 ">
+        <div className="flex flex-wrap gap-5">
+          <Card shadow="md" className="bg-background w-full lg:w-5/12  ">
             <CardHeader className='flex gap-3'>
               <Image
                 alt={"Tekki company logo"}
@@ -55,7 +55,7 @@ export default function ExperienceSection() {
               </div>
             </CardBody>
           </Card>
-          <Card shadow="md" className="w-full lg:w-5/12 bg-background hover:scale-105">
+          <Card shadow="md" className="w-full lg:w-5/12 bg-background ">
             <CardHeader className='flex gap-3'>
               <Image
                 alt={""}
