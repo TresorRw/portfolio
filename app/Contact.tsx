@@ -5,7 +5,7 @@ export default function ContactSection() {
   return (
     <Container>
       <div id="contact" className="h-screen flex items-center justify-center flex-col md:px-28 md:pt-20 lg:pt-28 p-5">
-        <h1 className="text-3xl font-bold mb-5">Get In Touch</h1>
+        <h1 className="text-3xl font-bold text-success mb-5">Get In Touch</h1>
         <div className="contact-options">
           <div className="my-5 flex flex-wrap gap-2">
             <Link href="https://github.com/TresorRw" isExternal>

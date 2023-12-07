@@ -18,6 +18,20 @@ const config: Config = {
               DEFAULT: "#0A2647",
               foreground: "#000000",
             },
+            primary: {
+              DEFAULT: '#005275',
+            },
+            secondary: {
+              DEFAULT: '#00818F'
+            },
+            success: {
+              DEFAULT: '#84D87C',
+              foreground: '#000000'
+            },
+            warning: {
+              DEFAULT: '#F9F871',
+              foreground: '#000000'
+            }
           },
         },
       },
