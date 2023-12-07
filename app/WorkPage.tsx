@@ -24,7 +24,7 @@ export default function WorkSection() {
               <Link
                 isExternal
                 showAnchorIcon
-                href="https://github.com/nextui-org/nextui"
+                href=""
               >
                 Live demo
               </Link>
@@ -61,7 +61,7 @@ export default function WorkSection() {
             />
           </div>
           <div className="md:w-2/4 p-4">
-            <Link href="" isExternal showAnchorIcon className="text-xl font-semibold uppercase ">
+            <Link href="https://e-comm-team-emma25-fe.netlify.app/" isExternal showAnchorIcon className="text-xl font-semibold uppercase ">
               e-commerce
             </Link>
             <p className="text-md mb-5 text-default-500">Complete e-commerce web with many products</p>
@@ -73,21 +73,21 @@ export default function WorkSection() {
               <Link
                 isExternal
                 showAnchorIcon
-                href="https://github.com/nextui-org/nextui"
+                href="https://github.com/atlp-rwanda/e-comm-team-emma25-bn"
               >
                 Back-end (GitHub)
               </Link>
               <Link
                 isExternal
                 showAnchorIcon
-                href="https://github.com/nextui-org/nextui"
+                href="https://github.com/atlp-rwanda/e-comm-team-emma25-fe"
               >
                 Fronted-end (GitHub)
               </Link>
               <Link
                 isExternal
                 showAnchorIcon
-                href="https://github.com/nextui-org/nextui"
+                href="https://e-comm-team-emma25-bn.onrender.com/docs/"
               >
                 Backend (Documentation)
               </Link>
