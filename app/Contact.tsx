@@ -6,6 +6,9 @@ export default function ContactSection() {
     <Container>
       <div id="contact" className="h-screen flex items-center justify-center flex-col md:px-28 md:pt-20 lg:pt-28 p-5">
         <h1 className="text-3xl font-bold text-success mb-5">Get In Touch</h1>
+        <p className="text-primary-600 max-w-[720px] w-full text-lg text-center p-3">
+          Excited about the possibility of collaborating on exciting projects! With a solid background in Software Development, I offer a mix of creativity and dedication. Let&apos;s create something extraordinary together. Reach out via below channels to explore potential opportunities. Can&apos;t wait to connect!
+        </p>
         <div className="contact-options">
           <div className="my-5 flex flex-wrap gap-2">
             <Link href="https://github.com/TresorRw" isExternal>

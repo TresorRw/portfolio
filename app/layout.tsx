@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-// import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import './globals.css'
 import NavBar from '@/components/NavBar'
 import { Providers } from './Providers'
 
-// const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins({ weight: ["100", "200", "300"], subsets: ['devanagari'] })
 
 export const metadata: Metadata = {
   title: 'CYUSA Alain Tresor',
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className=''>
+      <body className={poppins.className}>
         <Providers>
           <NavBar />
           {children}

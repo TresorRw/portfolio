@@ -45,10 +45,8 @@ export default function WorkSection() {
           <div className="md:w-2/4 p-4 flex justify-center lg:w-1/3">
             <Image
               isBlurred
-              width={300}
-              alt="NextUI Fruit Image with Zoom"
-              fallbackSrc={'/profile.jpg'}
-              src="/profile.jpg"
+              alt="Issue tracker web application"
+              src="/issue-tracker.png"
             />
           </div>
         </div>
@@ -56,10 +54,8 @@ export default function WorkSection() {
           <div className="md:w-2/4 p-4 flex justify-center lg:w-1/3 order-last lg:order-first">
             <Image
               isBlurred
-              width={300}
-              alt="NextUI Fruit Image with Zoom"
-              fallbackSrc={'/profile.jpg'}
-              src="/profile.jpg"
+              alt="e-commerce web app"
+              src="/web-ecom.png"
             />
           </div>
           <div className="md:w-2/4 p-4">
