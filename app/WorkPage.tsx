@@ -9,7 +9,7 @@ export default function WorkSection() {
         <h3 className="text-4xl text-success font-bold mb-5">Things I&apos;ve built</h3>
         <div className="flex gap-4 flex-col pb-20 md:flex-row w-full items-center">
           <div className="md:w-2/4 p-4">
-            <Link isExternal showAnchorIcon href="" className="text-xl font-semibold uppercase text-warning">Issue Tracker App</Link>
+            <Link isExternal showAnchorIcon href="" className="text-xl font-semibold uppercase text-success">Issue Tracker App</Link>
             <p className="text-md mb-5 text-default-500">Issue tracking application built for teams</p>
             <p className="text-justify text-primary-600 text-lg">An issue tracker is a web application used to manage and keep track of various tasks, bugs, feature requests, and other issues in a project or organization. It&apos;s a valuable tool for project management, software development, and other collaborative work environments.</p>
             <p className="my-3 text-primary-600 text-lg">This is what am currently working on, the demo will be live ASAP</p>
