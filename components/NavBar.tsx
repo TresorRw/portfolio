@@ -11,6 +11,7 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
+import { AiOutlineMenu } from 'react-icons/ai'
 
 export default function NavbarComponent() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -31,7 +32,7 @@ export default function NavbarComponent() {
     <>
       <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll isBlurred={false} className="shadow-lg">
         <NavbarContent>
-          <button className="btn btn-primary sm:hidden" onClick={toggleDrawer} aria-label={isMenuOpen ? "Close menu" : "Open menu"}>Menu</button>
+          <button className="btn btn-primary sm:hidden" onClick={toggleDrawer} aria-label={isMenuOpen ? "Close menu" : "Open menu"}><AiOutlineMenu /></button>
           <NavbarBrand>
             <Link href="/" className="font-bold text-inherit text-xl text-success">C.A Tresor</Link>
           </NavbarBrand>
@@ -63,7 +64,7 @@ export default function NavbarComponent() {
           <div className="menus">
             {menuItems.map((menu, i) => (
               <NavbarItem key={i} className="my-2">
-                <Link onClick={toggleDrawer} className="font-medium" href={menu.href} color="primary">
+                <Link onClick={toggleDrawer} className="font-medium text-lg" href={menu.href} color="primary">
                   {menu.label}
                 </Link>
               </NavbarItem>

@@ -13,19 +13,19 @@ export default function ContactSection() {
         </p>
         <div className="contact-options">
           <div className="my-5 flex flex-wrap justify-center gap-2">
-            <Link href="https://github.com/TresorRw" isExternal>
+            <Link href="https://github.com/TresorRw" isExternal color="foreground">
               <Chip startContent={<FaGithub />} color="default" variant="dot"> GitHub</Chip>
             </Link>
-            <Link href="https://linkedin.com/in/catresor" isExternal>
+            <Link href="https://linkedin.com/in/catresor" isExternal color="primary">
               <Chip startContent={<FaLinkedin />} color="primary" variant="dot"> LinkedIn</Chip>
             </Link>
             <Link href="https://twitter.com/TresorRw" isExternal>
               <Chip startContent={<FaTwitter />} color="success" variant="dot"> Twitter</Chip>
             </Link>
-            <Link href="https://replit.com/@CyusaAlain" isExternal>
+            <Link href="https://replit.com/@CyusaAlain" isExternal color="warning">
               <Chip startContent={<SiReplit />} color="warning" variant="dot"> Replit</Chip>
             </Link>
-            <Link href="mailto:alaintresorcyusa683@gmail.com" isExternal>
+            <Link href="mailto:alaintresorcyusa683@gmail.com" isExternal color="danger">
               <Chip startContent={<SiGmail />} color="danger" variant="dot"> Mail Me</Chip>
             </Link>
             <Link href="https://www.freecodecamp.org/TresorRw" isExternal>

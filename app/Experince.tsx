@@ -14,8 +14,7 @@ export default function ExperienceSection() {
                 height={40}
                 width={40}
                 radius='sm'
-                fallbackSrc="/next.svg"
-                src='https://avatars.githubusercontent.com/u/86160567?s=200&v=4'
+                src='/tekki-logo.png'
               />
               <div className="flex flex-col">
                 <p className="text-md font-semibold text-warning">Tekki</p>
@@ -58,12 +57,11 @@ export default function ExperienceSection() {
           <Card shadow="none" className="w-full lg:w-5/12 bg-background">
             <CardHeader className='flex gap-3'>
               <Image
-                alt={""}
+                alt={"Polystar NanoTech"}
                 height={40}
                 width={40}
                 radius='sm'
-                fallbackSrc="/next.svg"
-                src='https://avatars.githubusercontent.com/u/86160567?s=200&v=4'
+                src='/po-icon.png'
               />
               <div className="flex flex-col">
                 <p className="text-md text-warning">Polystar NanoTech Ltd</p>
