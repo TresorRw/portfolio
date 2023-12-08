@@ -7,7 +7,7 @@ import { Providers } from './Providers'
 const poppins = Poppins({ weight: ["100", "200", "300"], subsets: ['devanagari'] })
 
 export const metadata: Metadata = {
-  title: 'CYUSA Alain Tresor',
+  title: 'CYUSA Alain Tresor - Skilled in crafting robust, scalable software solutions.' ,
   description: 'Developer portfolio',
 }
 
