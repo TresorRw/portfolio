@@ -1,6 +1,8 @@
 "use client";
 
 import React from "react";
+import Drawer from 'react-modern-drawer'
+import 'react-modern-drawer/dist/index.css'
 import {
   Navbar,
   NavbarBrand,
@@ -8,13 +10,15 @@ import {
   NavbarItem,
   Link,
   Button,
-  NavbarMenu,
-  NavbarMenuItem,
-  NavbarMenuToggle,
 } from "@nextui-org/react";
 
 export default function NavbarComponent() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = React.useState(false)
+
+  const toggleDrawer = () => {
+    setIsOpen((prevState) => !prevState)
+  }
 
   const menuItems = [
     { href: "/#about", label: "About" },
@@ -24,44 +28,49 @@ export default function NavbarComponent() {
     { href: "/#contact", label: "Contact" },
   ]
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll isBlurred={false} className="shadow-lg">
-      <NavbarContent>
-        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} className="sm:hidden" />
-        <NavbarBrand>
-          <Link href="/" className="font-bold text-inherit text-xl text-success">C.A Tresor</Link>
-        </NavbarBrand>
-      </NavbarContent>
+    <>
+      <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll isBlurred={false} className="shadow-lg">
+        <NavbarContent>
+          <button className="btn btn-primary sm:hidden" onClick={toggleDrawer} aria-label={isMenuOpen ? "Close menu" : "Open menu"}>Menu</button>
+          <NavbarBrand>
+            <Link href="/" className="font-bold text-inherit text-xl text-success">C.A Tresor</Link>
+          </NavbarBrand>
+        </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        {menuItems.map((menu, i) => (
-          <NavbarItem key={i}>
-            <Link className="font-medium" href={menu.href} color="success">
-              {menu.label}
-            </Link>
+        <NavbarContent className="hidden sm:flex gap-4" justify="center">
+          {menuItems.map((menu, i) => (
+            <NavbarItem key={i}>
+              <Link className="font-medium" href={menu.href} color="success">
+                {menu.label}
+              </Link>
+            </NavbarItem>
+          ))}
+        </NavbarContent>
+        <NavbarContent justify="end">
+          <NavbarItem>
+            <Button as={Link} color="success" href="#" variant="shadow">
+              Resume
+            </Button>
           </NavbarItem>
-        ))}
-      </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem>
-          <Button as={Link} color="success" href="#" variant="shadow">
-            Resume
-          </Button>
-        </NavbarItem>
-      </NavbarContent>
-      <NavbarMenu>
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              className="w-full"
-              href={item.href}
-              color="success"
-              size="lg"
-            >
-              {item.label}
-            </Link>
-          </NavbarMenuItem>
-        ))}
-      </NavbarMenu>
-    </Navbar>
+        </NavbarContent>
+        <Drawer
+          open={isOpen}
+          onClose={toggleDrawer}
+          direction='left'
+          className="p-4"
+          enableOverlay
+        >
+          <div className="menus">
+            {menuItems.map((menu, i) => (
+              <NavbarItem key={i} className="my-2">
+                <Link onClick={toggleDrawer} className="font-medium" href={menu.href} color="primary">
+                  {menu.label}
+                </Link>
+              </NavbarItem>
+            ))}
+          </div>
+        </Drawer>
+      </Navbar >
+    </>
   );
 }

@@ -1,4 +1,6 @@
 import Container from "@/components/Container";
+import { FaGithub, FaLinkedin, FaTwitter, FaFreeCodeCamp } from "react-icons/fa";
+import { SiReplit, SiGmail } from "react-icons/si";
 import { Chip, Link } from "@nextui-org/react";
 
 export default function ContactSection() {
@@ -12,22 +14,22 @@ export default function ContactSection() {
         <div className="contact-options">
           <div className="my-5 flex flex-wrap justify-center gap-2">
             <Link href="https://github.com/TresorRw" isExternal>
-              <Chip color="default" variant="dot">GitHub</Chip>
+              <Chip startContent={<FaGithub />} color="default" variant="dot"> GitHub</Chip>
             </Link>
             <Link href="https://linkedin.com/in/catresor" isExternal>
-              <Chip color="primary" variant="dot">LinkedIn</Chip>
+              <Chip startContent={<FaLinkedin />} color="primary" variant="dot"> LinkedIn</Chip>
             </Link>
             <Link href="https://twitter.com/TresorRw" isExternal>
-              <Chip color="success" variant="dot">Twitter</Chip>
+              <Chip startContent={<FaTwitter />} color="success" variant="dot"> Twitter</Chip>
             </Link>
             <Link href="https://replit.com/@CyusaAlain" isExternal>
-              <Chip color="warning" variant="dot">Replit</Chip>
+              <Chip startContent={<SiReplit />} color="warning" variant="dot"> Replit</Chip>
             </Link>
             <Link href="mailto:alaintresorcyusa683@gmail.com" isExternal>
-              <Chip color="danger" variant="dot">Mail Me</Chip>
+              <Chip startContent={<SiGmail />} color="danger" variant="dot"> Mail Me</Chip>
             </Link>
             <Link href="https://www.freecodecamp.org/TresorRw" isExternal>
-              <Chip color="secondary" variant="dot">FreeCodeCamp</Chip>
+              <Chip startContent={<FaFreeCodeCamp />} color="secondary" variant="dot"> FreeCodeCamp</Chip>
             </Link>
           </div>
         </div>
