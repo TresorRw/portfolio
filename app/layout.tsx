@@ -8,7 +8,7 @@ const poppins = Poppins({ weight: ["100", "200", "300"], subsets: ['devanagari']
 
 export const metadata: Metadata = {
   title: 'CYUSA Alain Tresor - Skilled in crafting robust, scalable software solutions.' ,
-  description: 'Developer portfolio',
+  description: 'Passionate and skilled software developer with a proven track record of crafting robust and innovative solutions, eager to contribute expertise in different technologies to drive excellence in software development. Ready to bring a dynamic blend of technical proficiency and creativity to your team.',
 }
 
 export default function RootLayout({
