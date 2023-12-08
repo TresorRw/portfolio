@@ -28,14 +28,14 @@ export default function NavbarComponent() {
       <NavbarContent>
         <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} className="sm:hidden" />
         <NavbarBrand>
-          <h3 is="a" className="font-bold text-inherit text-xl text-success">C.A Tresor</h3>
+          <Link href="/" className="font-bold text-inherit text-xl text-success">C.A Tresor</Link>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {menuItems.map((menu, i) => (
           <NavbarItem key={i}>
-            <Link className="font-semibold" href={menu.href} color="success">
+            <Link className="font-medium" href={menu.href} color="success">
               {menu.label}
             </Link>
           </NavbarItem>

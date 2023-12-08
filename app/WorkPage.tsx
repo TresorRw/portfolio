@@ -26,7 +26,7 @@ export default function WorkSection() {
                 isExternal
                 className="text-warning"
                 showAnchorIcon
-                href=""
+                href="https://nextsjs-issue-tracker.vercel.app/"
               >
                 Live demo
               </Link>
@@ -66,8 +66,8 @@ export default function WorkSection() {
             <p className="text-justify text-primary-600 text-lg">A complete e-commerce platform that features user authentication and authorization, seller and buyer dashboard, payment integrations with ease of use</p>
             <p className="my-2 text-primary-600 text-lg">Used Role Based Access Control (RBAC) to ensure that a each user can perform an action based on the role where only the super admin can modify user roles.</p>
 
-            <p className="text-warning text-lg">Demo may perform differently due to the end of the subsciptions of used tools and integrations.</p>
-            <div className="footer-links my-5">
+            <p className="text-warning">Demo may perform differently due to the end of the subsciptions of used tools and integrations.</p>
+            <div className="footer-links my-2">
               <Link
                 isExternal
                 className="text-success"
@@ -82,7 +82,7 @@ export default function WorkSection() {
                 showAnchorIcon
                 href="https://github.com/atlp-rwanda/e-comm-team-emma25-fe"
               >
-                Fronted-end (GitHub)
+                Front-end (GitHub)
               </Link>
               <Link
                 isExternal
@@ -90,11 +90,12 @@ export default function WorkSection() {
                 showAnchorIcon
                 href="https://e-comm-team-emma25-bn.onrender.com/docs/"
               >
-                Backend (Documentation)
+                Docs
               </Link>
             </div>
             <div className="my-5 flex flex-wrap gap-2">
               <Chip color="primary" variant="dot">ExpressJS</Chip>
+              <Chip color="primary" variant="dot">ReactJS</Chip>
               <Chip color="success" variant="dot">PostgreSQL</Chip>
               <Chip color="danger" variant="dot">Stripe</Chip>
               <Chip color="primary" variant="dot">TypeScript</Chip>
@@ -104,7 +105,7 @@ export default function WorkSection() {
             </div>
           </div>
         </div>
-        <h4 className="text-2xl font-semibold text-center pb-10 text-success">Featured Projects</h4>
+        <h4 className="text-2xl font-semibold pb-5 text-center text-success">Featured Projects</h4>
         <div className="flex gap-4 flex-col flex-wrap md:flex-row">
           <Card className="w-full md:max-w-[380px] lg:1/4 bg-primary-100">
             <CardHeader>
