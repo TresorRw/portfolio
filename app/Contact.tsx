@@ -16,6 +16,9 @@ export default function ContactSection() {
             <Link href="https://github.com/TresorRw" isExternal color="foreground">
               <Chip startContent={<FaGithub />} color="default" variant="dot"> GitHub</Chip>
             </Link>
+ <Link href="tel:+250790904527" color="foreground">
+              <Chip color="default" variant="dot"> +250 790 904 527</Chip>
+            </Link>
             <Link href="https://linkedin.com/in/catresor" isExternal color="primary">
               <Chip startContent={<FaLinkedin />} color="primary" variant="dot"> LinkedIn</Chip>
             </Link>
