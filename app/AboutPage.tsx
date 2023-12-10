@@ -4,7 +4,7 @@ import { Image } from "@nextui-org/react";
 export default function AboutSection() {
   return (
     <Container>
-      <div id="about" className="flex gap-4 flex-col md:flex-row md:px-28 md:py-20 lg:py-28 p-5 w-full">
+      <div id="about" className="flex gap-4 flex-col md:flex-row md:px-24 md:py-20 p-5 w-full">
         <div className="md:w-3/4 p-4">
           <h3 className="text-4xl text-success font-bold mb-5">About Me </h3>
           <p className="text-justify text-lg text-primary-600">

@@ -5,11 +5,11 @@ import { Chip } from "@nextui-org/react";
 export default function WorkSection() {
   return (
     <Container>
-      <div id="projects" className="md:px-28 md:py-20 lg:py-28 p-5">
+      <div id="projects" className="md:px-24 md:py-16 p-5">
         <h3 className="text-4xl text-success font-bold mb-5">Things I&apos;ve built</h3>
         <div className="flex gap-4 flex-col pb-20 md:flex-row w-full items-center">
-          <div className="md:w-2/4 p-4">
-            <Link isExternal showAnchorIcon href="" className="text-xl font-semibold uppercase text-success">Issue Tracker App</Link>
+          <div className="md:w-3/4 p-4 lg:w-2/3">
+            <Link isExternal showAnchorIcon href="https://nextsjs-issue-tracker.vercel.app/" className="text-xl font-semibold uppercase text-success">Issue Tracker App</Link>
             <p className="text-md mb-5 text-default-500">Issue tracking application built for teams</p>
             <p className="text-justify text-primary-600 text-lg">An issue tracker is a web application used to manage and keep track of various tasks, bugs, feature requests, and other issues in a project or organization. It&apos;s a valuable tool for project management, software development, and other collaborative work environments.</p>
             <p className="my-3 text-primary-600 text-lg">This is what am currently working on, the demo will be live ASAP</p>
@@ -42,23 +42,23 @@ export default function WorkSection() {
             </div>
 
           </div>
-          <div className="md:w-2/4 p-4 flex justify-center lg:w-1/3">
+          <div className="md:w-3/4 p-4 flex justify-center lg:w-1/3">
             <Image
-              isBlurred
+              isZoomed
               alt="Issue tracker web application"
               src="/issue-tracker.png"
             />
           </div>
         </div>
         <div className="flex gap-4 flex-col pb-20 md:flex-row w-full items-center">
-          <div className="md:w-2/4 p-4 flex justify-center lg:w-1/3 order-last lg:order-first">
+          <div className="md:w-3/4 p-4 flex justify-center lg:w-1/3 order-last lg:order-first">
             <Image
-              isBlurred
+              isZoomed
               alt="e-commerce web app"
               src="/web-ecom.png"
             />
           </div>
-          <div className="md:w-2/4 p-4">
+          <div className="md:w-3/4 p-4 lg:w-2/3">
             <Link href="https://e-comm-team-emma25-fe.netlify.app/" isExternal showAnchorIcon className="text-xl text-success font-semibold uppercase ">
               e-commerce
             </Link>
@@ -107,7 +107,7 @@ export default function WorkSection() {
         </div>
         <h4 className="text-2xl font-semibold pb-5 text-center text-success">Featured Projects</h4>
         <div className="flex gap-4 flex-col flex-wrap md:flex-row">
-          <Card className="w-full md:max-w-[380px] lg:1/4 bg-primary-100">
+          <Card className="w-full md:max-w-[400px] bg-primary-100">
             <CardHeader>
               <h3 className="text-center font-bold text-lg text-success uppercase">Home Security System Narada</h3>
             </CardHeader>
@@ -125,7 +125,7 @@ export default function WorkSection() {
               </ul>
             </CardBody>
           </Card>
-          <Card className="w-full md:max-w-[380px] lg:1/4 bg-primary-100">
+          <Card className="w-full md:max-w-[400px] bg-primary-100">
             <CardHeader>
               <h3 className="text-center font-bold text-lg uppercase text-success">Maize Incubator</h3>
             </CardHeader>
@@ -143,7 +143,7 @@ export default function WorkSection() {
               </ul>
             </CardBody>
           </Card>
-          <Card className="w-full md:max-w-[380px] lg:1/4 bg-primary-100">
+          <Card className="w-full md:max-w-[400px] bg-primary-100">
             <CardHeader>
               <h3 className="text-center font-bold text-lg uppercase text-success">Smart Parking System</h3>
             </CardHeader>

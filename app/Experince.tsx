@@ -4,10 +4,10 @@ import { Chip, Card, CardHeader, CardBody, CardFooter, Divider, Link, Image } fr
 export default function ExperienceSection() {
   return (
     <Container>
-      <div id="experience" className=" md:px-28 md:py-20 lg:py-28 p-5">
+      <div id="experience" className="md:px-24 md:pt-20 p-5">
         <h3 className="text-2xl text-success mb-5 font-bold">Where I&apos;ve worked</h3>
-        <div className="flex flex-wrap gap-5">
-          <Card shadow="none" className="bg-background w-full lg:w-5/12">
+        <div className="flex flex-wrap justify-between">
+          <Card shadow="none" className="bg-background lg:w-1/2">
             <CardHeader className='flex gap-3'>
               <Image
                 alt={"Tekki company logo"}
@@ -54,7 +54,7 @@ export default function ExperienceSection() {
               </div>
             </CardBody>
           </Card>
-          <Card shadow="none" className="w-full lg:w-5/12 bg-background">
+          <Card shadow="none" className="bg-background lg:w-1/2">
             <CardHeader className='flex gap-3'>
               <Image
                 alt={"Polystar NanoTech"}

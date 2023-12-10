@@ -4,7 +4,7 @@ import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 export default function CredentialsSection() {
   return (
     <Container>
-      <div id="certificates" className="md:px-28 md:py-20 lg:py-28 p-5">
+      <div id="certificates" className="md:px-24 md:pt-16 p-5">
         <h1 className="text-3xl font-bold mb-5 text-success">Awards &amp; Certifications</h1>
         <div className="flex gap-4 flex-col flex-wrap md:flex-row">
           <Card className="w-full md:max-w-[400px] lg:1/4 bg-primary-100">
