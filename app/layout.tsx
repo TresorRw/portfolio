@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import NavBar from '@/components/NavBar'
 import { Providers } from './Providers'
+import { Toaster } from 'react-hot-toast'
 
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({
         <Providers>
           <NavBar />
           {children}
+          <Toaster position='bottom-right' />
         </Providers>
       </body>
     </html>
