@@ -11,7 +11,7 @@ export default function HomeSection() {
         <p className="text-primary-600 text-justify text-lg">Passionate and skilled software developer with a proven track record of crafting robust and innovative solutions, eager to contribute expertise in different technologies to drive excellence in software development. Ready to bring a dynamic blend of technical proficiency and creativity to your team.</p>
         <div className="action-buttons mt-10 space-x-5">
           <Button color="primary" as={Link} href="/#contact" className="text-white bg-success-300" variant="shadow">Contact</Button>
-          <Button color="success" variant="ghost">My Resume</Button>
+          <Button color="success" as={Link} href="/Resume-1.pdf" variant="ghost">My Resume</Button>
         </div>
       </div>
     </Container>

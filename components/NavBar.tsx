@@ -49,7 +49,7 @@ export default function NavbarComponent() {
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem>
-            <Button as={Link} color="success" href="#" variant="shadow">
+            <Button as={Link} color="success" href="/Resume-1.pdf" variant="shadow">
               Resume
             </Button>
           </NavbarItem>
