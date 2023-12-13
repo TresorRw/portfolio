@@ -13,9 +13,7 @@ export default function ContactSection() {
         <div className="my-5 flex flex-wrap justify-center gap-2">
           <ContactSocials />
         </div>
-        <div className="w-full max-w-[480px]">
-          <ContactForm />
-        </div>
+        <ContactForm />
       </div>
       <footer className="p-1 text-center text-sm">Designed &amp; Built by CYUSA Alain Tresor</footer>
     </Container>
