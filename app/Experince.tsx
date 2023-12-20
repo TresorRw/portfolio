@@ -1,5 +1,5 @@
 import Container from "@/components/Container";
-import { Chip, Card, CardHeader, CardBody, CardFooter, Divider, Link, Image } from '@nextui-org/react'
+import { Chip, Card, CardHeader, CardBody, Divider, Image } from '@nextui-org/react'
 
 export default function ExperienceSection() {
   return (
@@ -30,17 +30,23 @@ export default function ExperienceSection() {
                 During my apprenticeship program at <b className="text-warning">Tekki Ltd</b> I was working on the backend side of the application we were building. Here is the summary:
               </p>
               <ul className="list-disc list-inside text-lg text-justify text-primary-600 space-y-1">
-                <li>Contributed exitensively to the project idea development.
+                <li>
+                  Played a pivotal role in shaping and refining project ideas through extensive contribution to the development process.
                 </li>
-                <li>Work alongside creative developers for the research, development, and architecture of technical solutions to fulfill business requirements.
+                <li>
+                  Collaborated closely with innovative developers to conduct research, devise technical solutions, and establish robust architectures that align with business requirements.
                 </li>
-                <li>Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities.
+                <li>
+                  Fostered effective communication among cross-functional teams, including designers, project managers, and fellow engineers, to seamlessly translate creative concepts into tangible production outcomes.
                 </li>
-                <li>Conducted collaborative coding session with other engineers to resolve more complex tasks together in order to stay on the same track during the process.
+                <li>
+                  Facilitated collaborative coding sessions with team members to address intricate tasks collectively, ensuring alignment and coherence throughout the development process.
                 </li>
-                <li>Built and shipped the complete projects documentation with compodoc and swagger as well
+                <li>
+                  Spearheaded the creation and deployment of a real-time communication system, enhancing the efficiency of quick updates across the entire system.
                 </li>
-                <li>Built and shipped the real-time communication for quick and real-time updates across the system
+                <li>
+                  Developed and delivered comprehensive project documentation utilizing compodoc and swagger, ensuring seamless knowledge transfer and enabling efficient collaboration among cross-functional teams.
                 </li>
               </ul>
               <div className="mt-5 flex flex-wrap gap-2">
@@ -77,18 +83,23 @@ export default function ExperienceSection() {
                 <b className="text-warning">Polystar NanoTech Ltd</b> is company that excells in embedded programming, electronics and robotics. as a full stack developer here is the summary of my tasks:
               </p>
               <ul className="list-disc list-inside text-justify text-primary-600 text-lg space-y-1">
-                <li>Deliver high-quality, robust production code for a diverse array of projects for either company or clients including Narada Electronics, and more.
-                </li>
-                <li>Work alongside creative developers for the research, development, and architecture of technical solutions to fulfill business requirements.
-                </li>
-                <li>Attention to details from clients and project manager to understand, explore and execute the client&apos;s ideas and turn them into digital solution.
-                </li>
-                <li>Built and shipped the Admin panel for the company&apos; website.
-                </li>
-                <li>Architected and implemented different system dashboards for better data management.
+                <li>
+                  Produced robust production code for diverse projects at Polystar Nanotech, serving both internal needs and external clients like Narada Electronics.
                 </li>
                 <li>
-                  Provide leadership within web developers department through close collaboration, knowledge shares, and mentorship
+                  Collaborated with creative developers to research, develop, and architect technical solutions that met specific business requirements.
+                </li>
+                <li>
+                  Demonstrated keen attention to client and project manager input, meticulously understanding and executing digital solutions based on client ideas.
+                </li>
+                <li>
+                  Engineered and deployed the Admin panel for the company&apos;s website, enhancing overall user experience and functionality.
+                </li>
+                <li>
+                  Designed and implemented various system dashboards, optimizing data management processes for improved efficiency.
+                </li>
+                <li>
+                  Provided leadership within the web development department through collaborative efforts, knowledge sharing, and mentorship.
                 </li>
               </ul>
               <div className="mt-5 flex flex-wrap gap-2">
