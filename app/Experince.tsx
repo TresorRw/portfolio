@@ -40,9 +40,6 @@ export default function ExperienceSection() {
                   Fostered effective communication among cross-functional teams, including designers, project managers, and fellow engineers, to seamlessly translate creative concepts into tangible production outcomes.
                 </li>
                 <li>
-                  Facilitated collaborative coding sessions with team members to address intricate tasks collectively, ensuring alignment and coherence throughout the development process.
-                </li>
-                <li>
                   Spearheaded the creation and deployment of a real-time communication system, enhancing the efficiency of quick updates across the entire system.
                 </li>
                 <li>
