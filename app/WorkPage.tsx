@@ -106,7 +106,7 @@ export default function WorkSection() {
           </div>
         </div>
         <h4 className="text-2xl font-semibold pb-5 text-center text-success">Featured Projects</h4>
-        <div className="flex gap-4 flex-col flex-wrap md:flex-row">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <Card className="w-full md:max-w-[360px] bg-primary-100">
             <CardHeader>
               <h3 className="text-center font-bold text-lg text-success uppercase">Home Security System Narada</h3>
