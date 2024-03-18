@@ -11,8 +11,8 @@ export default function WorkSection() {
           <div className="md:w-full lg:w-2/3 p-4">
             <Link isExternal showAnchorIcon href="https://nextsjs-issue-tracker.vercel.app/" className="text-xl font-semibold uppercase text-success">Issue Tracker App</Link>
             <p className="text-md mb-5 text-default-500">Issue tracking application built for teams</p>
-            <p className="text-justify text-primary-600 text-lg">An issue tracker is a web application used to manage and keep track of various tasks, bugs, feature requests, and other issues in a project or organization. It&apos;s a valuable tool for project management, software development, and other collaborative work environments.</p>
-            <p className="my-3 text-primary-600 text-lg">This is what am currently working on, the demo will be live ASAP</p>
+            <p className="text-justify text-slate-200 text-lg">An issue tracker is a web application used to manage and keep track of various tasks, bugs, feature requests, and other issues in a project or organization. It&apos;s a valuable tool for project management, software development, and other collaborative work environments.</p>
+            <p className="my-3 text-slate-200 text-lg">This is what am currently working on, the demo will be live ASAP</p>
             <div className="footer-links my-5 space-x-5">
               <Link isExternal className="text-warning" showAnchorIcon href="https://github.com/TresorRw/issue-tracker-app">GitHub</Link>
               <Link isExternal className="text-warning" showAnchorIcon href="https://nextsjs-issue-tracker.vercel.app/">Live demo</Link>
@@ -45,8 +45,8 @@ export default function WorkSection() {
               e-commerce
             </Link>
             <p className="text-md mb-5 text-default-500">Complete e-commerce web with many products</p>
-            <p className="text-justify text-primary-600 text-lg">A complete e-commerce platform that features user authentication and authorization, seller and buyer dashboard, payment integrations with ease of use</p>
-            <p className="my-2 text-primary-600 text-lg">Used Role Based Access Control (RBAC) to ensure that a each user can perform an action based on the role where only the super admin can modify user roles.</p>
+            <p className="text-justify text-slate-200 text-lg">A complete e-commerce platform that features user authentication and authorization, seller and buyer dashboard, payment integrations with ease of use</p>
+            <p className="my-2 text-slate-200 text-lg">Used Role Based Access Control (RBAC) to ensure that a each user can perform an action based on the role where only the super admin can modify user roles.</p>
 
             <p className="text-warning">Demo may perform differently due to the end of the subsciptions of used tools and integrations.</p>
             <div className="footer-links my-2">
@@ -94,7 +94,7 @@ export default function WorkSection() {
               <h3 className="text-center font-bold text-lg text-success uppercase">Home Security System Narada</h3>
             </CardHeader>
             <CardBody>
-              <ul className="list-inside list-disc text-lg text-primary-600">
+              <ul className="list-inside list-disc text-lg text-slate-200">
                 <li >
                   Designed and Implemented the API and management system for this project.
                 </li>
@@ -112,7 +112,7 @@ export default function WorkSection() {
               <h3 className="text-center font-bold text-lg uppercase text-success">Maize Incubator</h3>
             </CardHeader>
             <CardBody>
-              <ul className="list-inside list-disc text-primary-600 text-lg">
+              <ul className="list-inside list-disc text-slate-200 text-lg">
                 <li>
                   Designed and Implemented the API for this project.
                 </li>
@@ -130,7 +130,7 @@ export default function WorkSection() {
               <h3 className="text-center font-bold text-lg uppercase text-success">Smart Parking System</h3>
             </CardHeader>
             <CardBody>
-              <ul className="list-inside list-disc text-lg text-primary-600">
+              <ul className="list-inside list-disc text-lg text-slate-200">
                 <li>
                   Designed and Implemented the API for this project.
                 </li>

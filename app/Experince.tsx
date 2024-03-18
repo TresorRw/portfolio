@@ -18,7 +18,7 @@ export default function ExperienceSection() {
               />
               <div className="flex flex-col">
                 <p className="text-md font-semibold text-warning">Tekki</p>
-                <p className="text-small text-primary-600">Backend Developer Apprentice</p>
+                <p className="text-small text-slate-200">Backend Developer Apprentice</p>
               </div>
             </CardHeader>
             <Divider />
@@ -26,10 +26,10 @@ export default function ExperienceSection() {
               <p className="font-semibold text-success">
                 22<sup>nd</sup> May - 11<sup>th</sup> November 2023
               </p>
-              <p className="text-justify text-primary-600 my-3 text-lg">
+              <p className="text-justify text-slate-200 my-3 text-lg">
                 During my apprenticeship program at <b className="text-warning">Tekki Ltd</b> I was working on the backend side of the application we were building. Here is the summary:
               </p>
-              <ul className="list-disc list-inside text-lg text-justify text-primary-600 space-y-1">
+              <ul className="list-disc list-inside text-lg text-justify text-slate-200 space-y-1">
                 <li>
                   Played a pivotal role in shaping and refining project ideas through extensive contribution to the development process.
                 </li>
@@ -68,7 +68,7 @@ export default function ExperienceSection() {
               />
               <div className="flex flex-col">
                 <p className="text-md text-warning">Polystar NanoTech Ltd</p>
-                <p className="text-small text-primary-600">Full Stack Web Developer</p>
+                <p className="text-small text-slate-200">Full Stack Web Developer</p>
               </div>
             </CardHeader>
             <Divider />
@@ -76,10 +76,10 @@ export default function ExperienceSection() {
               <p className="font-semibold text-success">
                 November 2022 - April 2023
               </p>
-              <p className="text-justify text-lg my-3 text-primary-600">
+              <p className="text-justify text-lg my-3 text-slate-200">
                 <b className="text-warning">Polystar NanoTech Ltd</b> is company that excells in embedded programming, electronics and robotics. as a full stack developer here is the summary of my tasks:
               </p>
-              <ul className="list-disc list-inside text-justify text-primary-600 text-lg space-y-1">
+              <ul className="list-disc list-inside text-justify text-slate-200 text-lg space-y-1">
                 <li>
                   Produced robust production code for diverse projects at Polystar Nanotech, serving both internal needs and external clients like Narada Electronics.
                 </li>
