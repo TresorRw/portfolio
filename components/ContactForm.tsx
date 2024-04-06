@@ -10,7 +10,7 @@ const ContactForm = () => {
   return (
     <div className='flex gap-4'>
       <Button color="success" variant="shadow" size="lg" onClick={() => setIsOpen(true)}>Send a message</Button>
-      <Button as={Link} isExternal href="https://calendly.com/ca_tresor/1-1-with-cyusa-alain-tresor" color="warning" variant="ghost" size="lg">Schedule a call</Button>
+      <Button as={Link} isExternal href="https://calendly.com/ca_tresor/discovery-call" color="warning" variant="ghost" size="lg">Schedule a call</Button>
       {isOpen && (
         <FilloutPopupEmbed
           filloutId="caqHqksdVcus"

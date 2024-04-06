@@ -5,9 +5,6 @@ import { Chip, Link } from "@nextui-org/react";
 const ContactSocials = () => {
   return (
     <>
-      <Link href="tel:+250790904527">
-        <Chip startContent={<FaPhoneAlt />} color="default" variant="dot"> +250 790 904 527</Chip>
-      </Link>
       <Link href="https://wa.me/message/JCUGW6TXACGKL1" isExternal>
         <Chip startContent={<FaWhatsapp />} color="default" variant="dot"> WhatsApp Chat</Chip>
       </Link>
